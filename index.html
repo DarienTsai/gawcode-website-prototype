@@ -1,0 +1,186 @@
+<doctype HTML>
+<html>
+
+<!--Here's the head-->
+<!--metas: english, viewport set, UTF character, titled, CSS linked-->
+<head>
+<meta lang="eng-US">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>GAW CODE</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<!--The below prevents right clicking, and hence inspect element-->
+<!--<script language="javascript">document.onmousedown=disableclick;status="Right Click Disabled";function disableclick(event){  if(event.button==2)   {     alert(status);     return false;       }}</script>-->
+</head>
+
+<!--Here's the juicy displayed skeleton part-->
+<body>
+
+<!--Navigation Bar-->
+<nav id="top">
+    <ul>
+        <!--Note that the href's are id's,
+            assigned per section by conventions that I forgot-->
+        <a href="#us" class="nav"><li>Who We Are</li></a>
+        <a href="#do" class="nav"><li>What We Do</li></a>
+        <a href="#up" class="nav"><li>Upcoming</li></a>
+        <a href="#pp" class="nav"><li>Meet Us</li></a>
+        <a href="#su" class="nav"><li>Join!</li></a>
+    </ul>
+</nav>
+
+<!--Header, jumobtron with parallax?-->
+<header>
+    <div style="height:30%;"></div>
+    <a href="index.html"><h1 class="intro">WE ARE CODE!</h1></a>
+    <h3 class="intro"> The only <span>computer science</span> club on campus</h3>
+    
+</header>
+
+<!--Who are we? Simple text display-->
+<section class="one" id="us">
+    <div class="present-left">
+        <h2 class="subhead-left">Who Are We?</h2>
+        <p class="info">We are the only computer science club on Glen A. Wilson’s campus. We’re a group of people who think that everyone should try out programming, not just for the sake of finding a career, but for fun and appreciation.
+        </p>
+    </div>
+</section>
+        
+<!--What Do We Do? Another text display-->
+<section class="two" id="do">
+    <div class="present-right">
+        <h2 class="subhead-right">What We Do.</h2>
+        <p class="info right"> We strive to create a community of coders. Our activities consist of weekly coding workshops, where members can learn and work on cool projects!
+        </p>
+    </div>
+</section>
+
+<!--Upcoming Things simple C&P modules with images-->
+<section class="three" id="up">
+
+<!--EVENT FORMULA-->
+    <div class="event act">
+        <img src="Assets/calender.svg" width="275px">
+        <h3>No Events Currently</h3>
+        <!--Enter date, otherwise "____"-->
+        <h4>____</h4>
+        <!--Enter a location, otherwise "____"-->
+        <h4>____</h4>
+    </div>
+<!--WORKSHOP FORMULA-->
+    <div class="workshop act">
+        <img src="Assets/phone.svg" width="275px">
+        <h3>Workshops Every Tuesday</h3>
+        <!--Enter date, otherwise "____"-->
+        <h4>3:00-4:30 PM</h4>
+        <!--Enter a location, otherwise "____"-->
+        <h4>Clubroom (A3B)</h4>
+    </div>
+<!--FUNDRAISER FORMULA-->
+    <div class="fundraiser act">
+        <img src="Assets/cluck.svg" width="275px">
+        <h3>No Fundraiser Currently</h3>
+        <!--Enter date, otherwise "____"-->
+        <h4>____</h4>
+        <!--Enter a location, otherwise "____"-->
+        <!--C&P Front Gate-->
+        <h4>____</h4>
+    </div>
+</section>
+
+<!--Our Staff! Listing of our crew, cool pics and describe, flexed-->
+<section class="four" id="pp">
+    <div class="staff" id="Kalvin">
+        <div>
+            <h2>Kalvin Chang</h2>
+            <p>President</p>
+        </div>
+    </div>
+    <div class="staff" id="Darien">
+        <div>
+            <h2>Darien Tsai</h2>
+        <p>Vice President</p>
+        </div>
+    </div>
+    <div class="staff" id="Jasmine">
+        <div>
+            <h2>Jasmine Huang</h2>
+            <p>Secretary</p>
+        </div>
+    </div>
+    <div class="staff" id="Keith">
+        <div>
+            <h2>Keith Kwuang</h2>
+            <p>Director of Coding</p>
+        </div>
+    </div>
+    <div class="staff" id="Karina">
+        <div>
+            <h2>Karina Shih</h2>
+            <p>Events Coordinator</p>
+        </div>
+    </div>
+    <div class="staff" id="Marshal">
+        <div>
+             <h2>Marshal Chen</h2>
+            <p>Treasurer</p>
+        </div>
+    </div>
+    <div class="staff" id="Jeffrey">
+        <div>
+            <h2>Jeffrey Liu</h2>
+            <p>Coding Committee</p>
+        </div>
+        
+    </div>
+    <div class="staff" id="Kimberly">
+        <div>
+            <h2>Kimberly Torres</h2>
+            <p>Coding Committee</p>
+        </div>
+    </div>
+    <div class="staff" id="Alvin">
+        <div>
+            <h2>Alvin Lee</h2>
+            <p>Web Dev't Committee</p>
+        </div>
+    </div>
+    <div class="staff" id="Kelly">
+        <div>
+            <h2>Kelly Chow</h2>
+            <p>Web Dev't Committee</p>
+        </div>
+    </div>
+    <div class="staff" id="Kyle">
+        <div>
+            <h2>Kyle Dang</h2>
+            <p>Coding Committee</p>        
+        </div>
+    </div>
+   
+</section>
+        
+<!--Join Us! A form and club info-->
+<section class="five" id="su">
+    <h1>Become a CODEr today!</h1>
+    <div>
+        <p>-----&gt</p>
+        <a class="typeform-share button" href="https://gawhscode.typeform.com/to/YdZKrX" data-mode="popup" style="display:block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:1% 8%;border-radius:50px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Sign up! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        <p>&lt-----</p>
+    </div>
+    
+</section>
+
+<!--Footer, it's the end!!!-->
+<footer>
+    <div class="foot">
+        <h5 class="end">&copy Glen A Wilson CODE Club</h5>
+        <h6 class="end">It's time to get with the program!</h6>
+    </div>
+    <a href="#top">Return to top</a>
+</footer>
+
+
+</body>
+
+</html>
